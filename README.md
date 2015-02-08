@@ -1,4 +1,4 @@
-# lucee
+# clojure-lucee
 
 A Clojure Ring app that can evaluate CFML using Lucee as an embedded engine.
 
@@ -24,7 +24,7 @@ and a link to a CFML page. Go on, click it! You'll see:
 
     I'm some CFML
 
-Yes, that's really a CFML page, running via Lucee embedded in a Clojure application. No install needed. When the application runs the first time, Lucee generates a WEB-INF folder containing the usual engine stuff. **Note: each request gets you a new session, since we're running CFML via Lucee's Command Line Interface!**
+Yes, that's really a CFML page, running via Lucee embedded in a Clojure application. No install needed. When the application runs the first time, Lucee generates a WEB-INF folder containing the usual engine stuff.
 
 ## License
 
